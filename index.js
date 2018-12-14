@@ -85,15 +85,74 @@ setTimeout(slide,2000);
 
 $(".profil").click(function () {
 
-
    window.location = "profil.html";
 });
 
 
 $(".profilA").click(function () {
 
-    $(".ensemble").hide();
+    window.location = "index.html";
+});
+
+// lien github
+
+$(".Github").click(function () {
+
+    window.open ("https://github.com/cyriakleclercq");
+});
+
+// lien twitter
+
+$(".social_media").click(function () {
+
+    window.open ("https://twitter.com/DrModj0");
+});
+
+// lien linkedin
+
+$(".portfolio").click(function () {
+
+    window.open ("https://www.linkedin.com/in/cyriak-leclercq-03931513a/");
+});
+
+// page experience
+
+$(".experience").click(function () {
+
+
+    window.location = "experience.html";
+});
+
+
+$(".experienceA").click(function () {
 
     window.location = "index.html";
 });
 
+// page du parcours
+
+$(".education").click(function () {
+
+
+    window.location = "parcours.html";
+});
+
+
+$(".parcoursA").click(function () {
+
+    window.location = "index.html";
+});
+
+// page de contact
+
+$(".contact").click(function () {
+
+
+    window.location = "contact.html";
+});
+
+
+$(".contactA").click(function () {
+
+    window.location = "index.html";
+});
